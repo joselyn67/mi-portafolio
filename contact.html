@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Mi Portafolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a class="brand" href="index.html">Mi <span>Portafolio</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre mí</a></li>
+        <li><a href="index.html#proyectos">Proyectos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-sub">¿Tienes un proyecto o quieres colaborar? Escríbeme.</p>
+
+        <div class="two-col">
+          <div class="card">
+            <form id="contact-form">
+              <div>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" required placeholder="Joselyn Zarate Diaz ">
+              </div>
+              <div>
+                <label for="correo">Correo</label>
+                <input id="correo" type="email" required placeholder="correo@ejemplo.com">
+              </div>
+              <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" required placeholder="Escribe tu mensaje..."></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+              <p id="form-msg" class="form-msg">¡Gracias! Tu mensaje fue registrado (formulario de demostración).</p>
+            </form>
+          </div>
+
+          <div class="card">
+            <h3>Datos de contacto</h3>
+            <ul class="contact-list" style="margin-top:16px">
+              <li><strong>Correo</strong>tucorreo@ejemplo.com</li>
+              <li><strong>GitHub</strong><a href="https://github.com/joselyn67" target="_blank" rel="noopener">github.com/joselyn67</a></li>
+              <li><strong>LinkedIn</strong><a href="https://linkedin.com/in/joselyn67" target="_blank" rel="noopener">linkedin.com/in/joselyn67</a></li>
+              <li><strong>Ubicación</strong>Ciudad, País</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year">2026</span> Joselyn Zarate Diaz  · Desarrollador de Software</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

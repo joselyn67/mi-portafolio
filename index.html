@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de desarrollador de software">
+  <title>Mi Portafolio | Desarrollador de Software</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a class="brand" href="index.html">Mi <span>Portafolio</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre mí</a></li>
+        <li><a href="index.html#proyectos">Proyectos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <small>Hola, soy</small>
+          <h1><span>Joselyn Zarate Diaz</span></h1>
+          <h2>Desarrollador de Software</h2>
+          <p>Creo soluciones web modernas y escalables utilizando tecnologías como Python, Docker, Linux y más.</p>
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-outline" href="contact.html">Contactar</a>
+        </div>
+        <div class="hero-img">
+          <img src="assets/avatar.svg" alt="Avatar del desarrollador">
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <p class="section-sub">Tecnologías con las que trabajo a diario.</p>
+        <div class="skills">
+          <div class="card skill">
+            <svg viewBox="0 0 48 48"><path d="M24 4c-9 0-8 4-8 4v5h8v2H12S4 14 4 24s7 10 7 10h4v-5s0-7 7-7h8s6 0 6-6V9s1-5-12-5z" fill="#3776ab"/><path d="M24 44c9 0 8-4 8-4v-5h-8v-2h12s8-1 8-11-7-10-7-10h-4v5s0 7-7 7h-8s-6 0-6 6v8s-1 6 12 6z" fill="#ffd43b"/></svg>
+            <h3>Python</h3>
+          </div>
+          <div class="card skill">
+            <svg viewBox="0 0 48 48"><rect width="48" height="48" rx="6" fill="#f7df1e"/><text x="28" y="42" font-size="20" font-weight="700" text-anchor="middle" fill="#222" font-family="Arial">JS</text></svg>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="card skill">
+            <svg viewBox="0 0 48 48"><path d="M4 26h40c0 10-9 16-20 16S6 36 4 26z" fill="#2496ed"/><g fill="#2496ed"><rect x="9" y="17" width="6" height="6"/><rect x="17" y="17" width="6" height="6"/><rect x="25" y="17" width="6" height="6"/><rect x="17" y="9" width="6" height="6"/><rect x="33" y="17" width="6" height="6"/></g></svg>
+            <h3>Docker</h3>
+          </div>
+          <div class="card skill">
+            <svg viewBox="0 0 48 48"><ellipse cx="24" cy="28" rx="13" ry="16" fill="#222"/><ellipse cx="24" cy="32" rx="8" ry="11" fill="#f5f5f5"/><circle cx="24" cy="12" r="8" fill="#222"/><circle cx="21" cy="11" r="1.6" fill="#fff"/><circle cx="27" cy="11" r="1.6" fill="#fff"/><path d="M20 15l4 3 4-3z" fill="#f5a623"/></svg>
+            <h3>Linux</h3>
+          </div>
+          <div class="card skill">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#222"/><text x="24" y="30" font-size="16" font-weight="700" text-anchor="middle" fill="#fff" font-family="Arial">Git</text></svg>
+            <h3>Git / GitHub</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-sub">Algunos trabajos destacados (reemplázalos por los tuyos).</p>
+        <div class="projects">
+          <article class="card project">
+            <h3>API de Tareas</h3>
+            <p>API REST para gestionar tareas con autenticación y base de datos.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span></div>
+            <a href="https://github.com/joselyn67" target="_blank" rel="noopener">Ver en GitHub →</a>
+          </article>
+          <article class="card project">
+            <h3>Panel de Monitoreo</h3>
+            <p>Dashboard para visualizar métricas de servidores Linux en tiempo real.</p>
+            <div class="tags"><span class="tag">JavaScript</span><span class="tag">Linux</span><span class="tag">Docker</span></div>
+            <a href="https://github.com/joselyn67" target="_blank" rel="noopener">Ver en GitHub →</a>
+          </article>
+          <article class="card project">
+            <h3>Despliegue Automatizado</h3>
+            <p>Pipeline de despliegue continuo con contenedores y Dokploy.</p>
+            <div class="tags"><span class="tag">Docker</span><span class="tag">Dokploy</span><span class="tag">CI/CD</span></div>
+            <a href="https://github.com/joselyn67" target="_blank" rel="noopener">Ver en GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year">2026</span> Joselyn Zarate Diaz · Desarrollador de Software</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
